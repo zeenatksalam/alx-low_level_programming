@@ -14,7 +14,7 @@ char *cap_string(char *);
 
 int _putchar(char c);
 
-char *loot(char *);
+char *leet(char *);
 
 void print_number(int n);
 
