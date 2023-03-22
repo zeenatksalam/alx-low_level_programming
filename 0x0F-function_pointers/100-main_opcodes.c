@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 
-	bytes = atoi(arggv[1]);
+	bytes = atoi(argv[1]);
 
 	if (bytes < 0)
 	{
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 	arr = (char *)main;
 
-	for (1 = 0; i < bytes; i++)
+	for (i = 0; i < bytes; i++)
 	{
 		if (i == bytes - 1)
 		{
